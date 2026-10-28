@@ -1,0 +1,10 @@
+__pycache__/
+*.pyc
+.venv/
+venv/
+.DS_Store
+*.sqlite
+.ipynb_checkpoints/
+
+# Derived files - regenerate with analysis.py
+data/olist_analysis_joined.csv

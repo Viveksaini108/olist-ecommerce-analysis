@@ -1,0 +1,295 @@
+{
+  "table_rows": {
+    "orders": 99441,
+    "order_items": 112650,
+    "payments": 103886,
+    "reviews": 99224,
+    "customers": 99441,
+    "products": 32951,
+    "sellers": 3095
+  },
+  "joined_rows": 98666,
+  "date_min": "2016-09-04",
+  "date_max": "2018-09-03",
+  "delivered_orders": 96478,
+  "delivery_sample": 95824,
+  "pct_delivered_late": 8.0,
+  "avg_review_on_time": 4.29,
+  "avg_review_late": 2.57,
+  "avg_review_all_delivered": 4.16,
+  "share_5star_on_time_pct": 62.4,
+  "share_5star_late_pct": 22.2,
+  "share_1star_on_time_pct": 6.6,
+  "share_1star_late_pct": 46.2,
+  "review_by_delay_bucket": {
+    "Early or on time": {
+      "orders": 88163,
+      "share_pct": 92.0,
+      "avg_review": 4.29,
+      "share_5star_pct": 62.4,
+      "share_1star_pct": 6.6
+    },
+    "1-3 days late": {
+      "orders": 2636,
+      "share_pct": 2.8,
+      "avg_review": 3.77,
+      "share_5star_pct": 43.2,
+      "share_1star_pct": 13.8
+    },
+    "4-7 days late": {
+      "orders": 1773,
+      "share_pct": 1.9,
+      "avg_review": 2.32,
+      "share_5star_pct": 18.2,
+      "share_1star_pct": 53.0
+    },
+    "8+ days late": {
+      "orders": 3252,
+      "share_pct": 3.4,
+      "avg_review": 1.73,
+      "share_5star_pct": 7.5,
+      "share_1star_pct": 68.8
+    }
+  },
+  "very_late_avg_review": 1.73,
+  "top_categories_by_revenue": {
+    "health_beauty": 1256376.51,
+    "watches_gifts": 1199160.41,
+    "bed_bath_table": 1037531.86,
+    "sports_leisure": 979414.26,
+    "computers_accessories": 904519.02
+  },
+  "worst_categories_by_review": {
+    "office_furniture": {
+      "avg_review": 3.65,
+      "orders": 1241
+    },
+    "audio": {
+      "avg_review": 3.85,
+      "orders": 341
+    },
+    "home_confort": {
+      "avg_review": 3.92,
+      "orders": 362
+    },
+    "bed_bath_table": {
+      "avg_review": 4.01,
+      "orders": 9095
+    },
+    "home_construction": {
+      "avg_review": 4.03,
+      "orders": 470
+    }
+  },
+  "best_categories_by_review": {
+    "books_general_interest": {
+      "avg_review": 4.54,
+      "orders": 489
+    },
+    "luggage_accessories": {
+      "avg_review": 4.37,
+      "orders": 1009
+    },
+    "food": {
+      "avg_review": 4.34,
+      "orders": 432
+    },
+    "stationery": {
+      "avg_review": 4.31,
+      "orders": 2231
+    },
+    "pet_shop": {
+      "avg_review": 4.28,
+      "orders": 1673
+    }
+  },
+  "total_revenue_brl": 13494400.74,
+  "payment_types": {
+    "boleto": {
+      "orders_share_pct": 19.9,
+      "avg_order_value_brl": 144.69,
+      "avg_installments": 1.0
+    },
+    "credit_card": {
+      "orders_share_pct": 75.5,
+      "avg_order_value_brl": 166.64,
+      "avg_installments": 3.6
+    },
+    "debit_card": {
+      "orders_share_pct": 1.5,
+      "avg_order_value_brl": 140.27,
+      "avg_installments": 1.0
+    },
+    "voucher": {
+      "orders_share_pct": 3.1,
+      "avg_order_value_brl": 114.94,
+      "avg_installments": 1.0
+    }
+  },
+  "credit_card": {
+    "avg_installments": 3.6,
+    "pct_paid_in_installments": 68.0,
+    "pct_8plus_installments": 14.0,
+    "avg_value_1_installment_brl": 100.82,
+    "avg_value_installments_brl": 197.64
+  },
+  "boleto_avg_value_brl": 144.69,
+  "monthly_trend": {
+    "2017-01": {
+      "orders": 787,
+      "revenue": 120098.27
+    },
+    "2017-02": {
+      "orders": 1718,
+      "revenue": 244959.35
+    },
+    "2017-03": {
+      "orders": 2617,
+      "revenue": 368341.32
+    },
+    "2017-04": {
+      "orders": 2377,
+      "revenue": 353842.98
+    },
+    "2017-05": {
+      "orders": 3640,
+      "revenue": 503159.19
+    },
+    "2017-06": {
+      "orders": 3205,
+      "revenue": 429916.61
+    },
+    "2017-07": {
+      "orders": 3946,
+      "revenue": 492287.3
+    },
+    "2017-08": {
+      "orders": 4272,
+      "revenue": 568245.79
+    },
+    "2017-09": {
+      "orders": 4227,
+      "revenue": 621415.91
+    },
+    "2017-10": {
+      "orders": 4547,
+      "revenue": 660179.62
+    },
+    "2017-11": {
+      "orders": 7421,
+      "revenue": 1003862.14
+    },
+    "2017-12": {
+      "orders": 5618,
+      "revenue": 742183.79
+    },
+    "2018-01": {
+      "orders": 7187,
+      "revenue": 945456.29
+    },
+    "2018-02": {
+      "orders": 6624,
+      "revenue": 837895.43
+    },
+    "2018-03": {
+      "orders": 7168,
+      "revenue": 981051.06
+    },
+    "2018-04": {
+      "orders": 6919,
+      "revenue": 993592.98
+    },
+    "2018-05": {
+      "orders": 6833,
+      "revenue": 992871.75
+    },
+    "2018-06": {
+      "orders": 6145,
+      "revenue": 863265.53
+    },
+    "2018-07": {
+      "orders": 6233,
+      "revenue": 878044.27
+    },
+    "2018-08": {
+      "orders": 6421,
+      "revenue": 848860.1
+    }
+  },
+  "peak_month": {
+    "month": "2017-11",
+    "orders": 7421,
+    "revenue": 1003862.14
+  },
+  "trend_first_month": {
+    "month": "2017-01",
+    "orders": 787
+  },
+  "trend_last_month": {
+    "month": "2018-08",
+    "orders": 6421
+  },
+  "top_states_by_revenue": {
+    "SP": {
+      "orders": 41125,
+      "revenue": 5163867.22
+    },
+    "RJ": {
+      "orders": 12697,
+      "revenue": 1811623.42
+    },
+    "MG": {
+      "orders": 11496,
+      "revenue": 1573508.2
+    },
+    "RS": {
+      "orders": 5415,
+      "revenue": 742559.78
+    },
+    "PR": {
+      "orders": 4982,
+      "revenue": 676883.06
+    },
+    "SC": {
+      "orders": 3599,
+      "revenue": 518578.28
+    },
+    "BA": {
+      "orders": 3344,
+      "revenue": 507108.83
+    },
+    "DF": {
+      "orders": 2120,
+      "revenue": 300886.45
+    },
+    "GO": {
+      "orders": 1998,
+      "revenue": 287870.46
+    },
+    "ES": {
+      "orders": 2018,
+      "revenue": 273532.13
+    }
+  },
+  "top_state_share_pct": 38.3,
+  "top_state": "SP",
+  "unique_customers": 95420,
+  "pct_customers_one_order": 96.9,
+  "pct_customers_repeat": 3.1,
+  "max_orders_one_customer": 16,
+  "freight_total_share_pct": 16.6,
+  "avg_freight_share_per_order_pct": 30.9,
+  "pct_orders_freight_over_30pct": 35.1,
+  "freight_share_lowest_categories": {
+    "watches_gifts": 8.4,
+    "small_appliances": 8.5,
+    "musical_instruments": 9.7
+  },
+  "freight_share_highest_categories": {
+    "electronics": 29.5,
+    "furniture_living_room": 26.3,
+    "office_furniture": 25.0
+  },
+  "orders_with_review_pct": 99.2,
+  "avg_delivery_days": 12.6
+}
